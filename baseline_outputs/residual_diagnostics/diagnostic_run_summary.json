@@ -1,0 +1,27 @@
+{
+  "config": {
+    "data_path": "D:\\jupyter\\LLPS\\final_modeling_dataset.csv",
+    "feature_path": "D:\\jupyter\\LLPS\\baseline_outputs\\baseline_feature_table.csv",
+    "pred_path": "D:\\jupyter\\LLPS\\baseline_outputs\\oof_predictions_all_protocols.csv",
+    "metrics_path": "D:\\jupyter\\LLPS\\baseline_outputs\\protocol_metrics.csv",
+    "output_dir": "D:\\jupyter\\LLPS\\baseline_outputs\\residual_diagnostics",
+    "min_group_n": 5,
+    "top_k_rows": 60,
+    "persistent_bias_threshold": 0.25,
+    "focus_protocols": [
+      "DS-known",
+      "DS-unknown",
+      "LOCO",
+      "strict_amine_object_holdout"
+    ]
+  },
+  "n_row_level_records": 1831,
+  "protocol_counts": {
+    "DS-known": 493,
+    "DS-unknown": 493,
+    "LOCO": 493,
+    "strict_amine_object_holdout": 352
+  },
+  "n_unique_row_ids": 493,
+  "n_shared_rows_ds_unknown_vs_strict": 493
+}

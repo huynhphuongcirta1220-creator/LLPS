@@ -1,0 +1,26 @@
+{
+  "config": {
+    "data_path": "final_modeling_dataset.csv",
+    "surface_path": "surface_descriptors_selected.csv",
+    "sigma_long_path": "sigma_profiles_long_selected.csv",
+    "output_dir": "baseline_outputs",
+    "random_seed": 42,
+    "n_splits": 5,
+    "preprocessor": "standard",
+    "exclude_mixed_from_strict": true,
+    "donor_thresh": -0.0084,
+    "acceptor_thresh": 0.0084,
+    "svm_c": 10.0,
+    "svm_gamma": 0.01,
+    "svm_kernel": "rbf"
+  },
+  "n_input_rows": 501,
+  "n_feature_rows": 493,
+  "n_excluded_rows": 8,
+  "excluded_reason_counts": {
+    "medium_profile_undefined": 8
+  },
+  "n_canonical_amine_objects": 69,
+  "n_chemistry_objects": 150,
+  "positive_rate": 0.6592292089249493
+}
